@@ -1,0 +1,19 @@
+spring:
+  jap:
+    database: mysql
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    proprtties:
+      hibernate:
+        format-sql: false
+        # default_batch_fetch_size: 10
+  datasource:
+    url: jdbc:mysql://mysql:3306/portfolio
+    username: root password:ENC(500kblP/F+yDvz11YgjH+byOIIpu/AuA)
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
